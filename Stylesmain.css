@@ -1,0 +1,258 @@
+﻿body {
+    margin: 0;
+    color: #080808;
+    height: 100%;
+}
+
+.sidenav {
+    height: 3500px;
+    position: absolute;
+    width: 0;
+    margin: 0;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #080808;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    display: block;
+}
+
+.navbar-inverse {
+    background-color: #080808;
+    border-color: #080808;
+    color: white;
+}
+
+#loginuser {
+    padding-right: 25px;
+}
+
+#sidemenuarrow {
+    padding-top: 5px;
+    font-size: 12px;
+    float: right;
+}
+
+.sidemenubars {
+    background-color: dodgerblue;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#megaul {
+    position: absolute;
+    background-color: whitesmoke;
+    width: 1000px;
+    left: 0;
+    padding:0px;
+    margin: 1px 0px 0px 0px;
+    z-index: 1;
+    color: black;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    /*color: white;*/
+    display: block;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 15px;
+        }
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    height: 150px;
+    padding-top: 50px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay input {
+    height: 150px;
+    width: 100%;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.selectoptionyear {
+    background-color: dodgerblue;
+    width: 60px;
+    height: 50px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+    .selectoptionyear option, .selectoptiondept option {
+        background-color: white;
+        color: black;
+        font-size: 15px;
+        width: 60px;
+        height: 50px;
+        box-shadow: 0 0 10px 100px #fff inset;
+    }
+
+select option:hover {
+    background-color: black;
+}
+
+.selectoptiondept {
+    right: 10px;
+    background-color: green;
+    width: 55px;
+    height: 50px;
+    border: none;
+}
+
+.subtitle {
+    padding: 0px 10px 0px 0px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.subtitle2 {
+    padding: 0px 10px 0px 0px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.paddingbody {
+    padding: 5px 5px 5px 10px;
+}
+
+.iconpadding {
+    padding: 35px 5px 5px 10px;
+}
+
+.paddingbody2 {
+    padding: 1px 1px 1px 10px;
+}
+
+.iconpadding2 {
+    padding: 25px 5px 5px 10px;
+    font-size: 20px;
+}
+
+.analytics-content {
+    margin-bottom: 0px;
+    border-width: 0px;
+    padding-left: 15px;
+}
+
+.borderfirstcard {
+    position: fixed;
+    height: 150px;
+    border: 1px solid grey;
+    left: 40px;
+}
+
+.borderlastcard {
+    position: fixed;
+    height: 150px;
+    border: 1px solid grey;
+    left: 40px;
+}
+
+#myCarousel, .carousel-inner {
+    height: 150px;
+}
+
+.border2 {
+    height: 120px;
+    border: 1px solid grey;
+}
+
+.paddingleft{
+padding-left:50px;
+}
+
+#myCarousel2, .carousel2 {
+    height: 120px;
+}
+
+#carouselcontrolleft {
+    padding-right: 5px;
+    opacity: inherit;
+    box-shadow: black;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    padding-top: 60px;
+    width: 30px;
+    color: black;
+    border-top: 1px solid gray;
+}
+
+#carouselcontrolright {
+    padding-left: 5px;
+    opacity: inherit;
+    box-shadow: black;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    padding-top: 60px;
+    width: 30px;
+    color: black;
+    border-top: 1px solid gray;
+}
+
+#carouselcontrol2 {
+    padding-left: 5px;
+    opacity: inherit;
+    box-shadow: black;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    padding-top: 35px;
+    width: 30px;
+    color: black;
+    border-top: 1px solid gray;
+}
+
+#search-link {
+    color: dodgerblue;
+}
+
+#actionsrow {
+    background-color: steelblue;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+#actionsbody {
+    padding: 0px 5px 5px 10px;
+}
+
+.borderactions {
+    height: 200px;
+    border-right: 1px solid darkgray;
+}
